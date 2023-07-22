@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.top_flag {
+    float:left;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 50vw;
+}
+
+.header_text {
+    font-family: 'Brush Script MT', cursive;
+    float:left;
+    font-size: 5vw;
+    padding-top:4vw;
+    color: #9D2235;
+}
+
+.spaced_from_top {
+    margin: 0 auto;
+    padding-top: 35vw;
+    font-size: 200%;
+}
+
+@media screen and (min-width: 1500px) {
+    .header_text {
+        font-size: 75px;
+        padding-top: 60px;
+    }
+    .spaced_from_top {
+        padding-top: 525px;
+    }
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:rgb(43, 43, 212);
+}
+
+table, td, th {
+    border: 4px solid;
+}
+
+.info-box {
+    background-color: lightgray;
+    color:black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #9D2235;
+    margin:12px;
+    margin-right: 50%;
+    padding:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+  
+table {
+    border-collapse: collapse;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #9D2235;
+    color: white;
+}
+
+.navbar-image {
+    width:40px;
+    height:auto;
+    padding:0px;
+    margin:0px;
+}
+
+.infobox-picture {
+    width: 100px;
+    height:auto;
+
+}
+
+.floatright {
+    float: right;
+}
+
+.textcrawlright {
+    position:absolute;
+    background-color: lightgray;
+    color:black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #9D2235;
+    margin:12px;
+    margin-left: 55%;
+    padding:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:40%;
+}
+
+.constitution {
+    color: black;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: #9D2235;
+    border-width: 4px;
+    margin: 2%;
+    padding: 3px;
+    width:94%;
+}
